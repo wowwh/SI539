@@ -4,6 +4,10 @@ body{
     
 }
 
+nav {
+    display: inline
+}
+
 h1{
     color: #95004D;
     font-family:Times,Cursive,"Wing Dings";
