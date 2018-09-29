@@ -116,3 +116,9 @@ a:visited{
     height:300px;
     width:500px;
 }
+
+
+.height_width{
+    height:100%;
+    width:100%;
+}
