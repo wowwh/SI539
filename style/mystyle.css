@@ -5,8 +5,7 @@ body{
 }
 
 nav {
-    display: inline,flex;    
-    justify-content:center;
+    display: inline
 }
 
 h1{
