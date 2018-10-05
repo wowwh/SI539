@@ -5,15 +5,22 @@ body{
 }
 
 nav {
-    display: inline
+    display: inline,flex;    
+    justify-content:center;
 }
 
 h1{
     color: #95004D;
-    font-family:Times,Cursive,"Wing Dings";
+    font-family: 'Charmonman', cursive;
     font-size: 100px;
     margin:0px;
+    display: flex;    
+    justify-content:center;
 }
+}
+
+
+
 
 
 ul{
@@ -21,10 +28,23 @@ ul{
 }
 
 
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
 li{
+    font-family: 'Mali', cursive;
     display: inline;
     color: aliceblue;
+    font-size: 30px;
     
+}
+
+
+p{
+    font-family: 'K2D', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -130,10 +150,29 @@ a:visited{
 .table_img{
     width:100%;
     border:0;
-    cellspacing:0;
-    cellpadding:0;
+    
+
+    
+}
+
+
+tr{
+    display: flex;
+    justify-content:space-around;
 }
 
 .td_align{
-    align:center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+
+
+.fas{
+    font-size:30px;
+}
+
+.table_text{
+    display: flex;
+    justify-content:space-around;
 }
