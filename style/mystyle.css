@@ -5,7 +5,8 @@ body{
 }
 
 nav {
-    display: inline
+    display: inline,flex;    
+    justify-content:center;
 }
 
 h1{
@@ -16,7 +17,7 @@ h1{
     display: flex;    
     justify-content:center;
 }
-}
+
 
 
 
@@ -174,4 +175,11 @@ tr{
 .table_text{
     display: flex;
     justify-content:space-around;
+}
+
+
+
+.visuallyhidden{
+    display: none;
+    visibility: hidden;
 }
