@@ -1,25 +1,20 @@
 body{    
     color:rgb(0, 66, 165);
     background-color: #A7C4CA;
-    /* background-image:url("https://www.pexels.com/photo/panoramic-view-of-city-lit-up-at-night-311012/");
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    z-index:98;  */
+    margin-top:12vh;
+    
     
 }
 
-nav {
-    
-    position:fixed; 
-    top:0; 
-    justify-content:center;
-    /* left:75%;  */
+a.current:link, a.current:visited {
+    color: white;
+    background-color: rgb(0, 66, 165);
+  }
+
+.paradoxcontent p{    
+    /* border:1px solid black;  */
     width:30vw; 
-    height:5vw; 
-    opacity: 0.8;    
-    z-index:99; 
-    /* background-color: rgb(145, 58, 103) */
+    height:200px;
 }
 
 h1{
@@ -32,7 +27,7 @@ h1{
     justify-content: center;
 }
 
-.column {
+.column {    
     width:30vw;
     display: inline-block;
 }
@@ -40,12 +35,11 @@ h1{
 
 
 
-ul{
-    top:0%; 
-    justify-content:center;
-    width:50vw; 
+ul{    
     padding:10px;
 }
+
+
 
 
 
@@ -54,10 +48,11 @@ h2{
 }
 
 li{
+    
     font-family: 'Mali', cursive;
-    display: inline;
     color: aliceblue;
     font-size: 2vmax;    
+    border: 1px solid white;
 }
 
 
@@ -238,10 +233,8 @@ tr{
         display: inline-block;
     }
     .aboutimg{
-        /* height:300px;
-        width:500px; */
-        height:40vw;
-        width:50vw;
+        height:80vw;
+        width:100vw;
     }
     li{
         font-family: 'Mali', cursive;
@@ -250,8 +243,13 @@ tr{
         display: block;
         
     }
-    nav{
+    /* nav{
         left: 75vw
+    } */
+    .paradoxcontent p{    
+        border:1px solid black; 
+        width:100vw; 
+        height:200px
     }
 
 }

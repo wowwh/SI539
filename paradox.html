@@ -3,65 +3,153 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact</title>
+    <title>Paradox</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style/mystyle.css" />
+    
     <link href="https://fonts.googleapis.com/css?family=Charmonman%7CK2D%7CMali%7COpen+Sans%7CPlayfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">    
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/mystyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
         
         <header>
                 <h1 class="charmonan">Paradox</h1>        
-                <nav>
+                <!-- <nav>
                     <ul>
                         <li><a href = "index.html">Hello</a></li>
                         <li><a href = "about.html">About</a></li>
                         <li><a href = "paradox.html">Paradox!</a></li>
                         <li><a href = "contact.html">Contact</a></li>
                     </ul>
-                </nav>
+                </nav> -->
+
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">                      
+                      <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href = "index.html">Hello</a></li>
+                            <li><a href = "about.html">About</a></li>
+                            <li><a href = "paradox.html" class='current'>Paradox!</a></li>
+                            <li><a href = "contact.html" >Contact</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+
+
                 
                       
         </header>
 
         
 
-
         
-        <main>       
-                <h2>Some intersting paradoxes here!</h2>                     
+        <main>     
+            <div>
+                <h2>Some interesting paradoxes here!</h2>  
+            </div>  
+
+            <!-- <div class = "gallery">
+					<div class="grid">
+						
+						<div class="item">
+							<div class="item-content">
+									<a href="images/3.png" data-lightbox="paradox" data-title="about"><img  src="images/2.jpg" alt="paradox 2"></a>
+							</div>
+						</div>
+		
+						<div class="item">
+								<div class="item-content">
+									<a href="images/4.png" data-lightbox="paradox" data-title="distance"><img  src="images/4.png" alt="paradox 3"></a>
+								</div>
+						</div>
+		
+						<div class="item">
+								<div class="item-content">
+									<a href="images/5.jpg" data-lightbox="paradox" data-title="boat"><img  src="images/5.jpg" alt="paradox 4"></a>	
+								</div>
+						</div>
+		
+						<div class="item">
+								<div class="item-content">
+									<a href="images/6.jpg" data-lightbox="paradox" data-title="grandpa"><img  src="images/6.jpg" alt="paradox 5"></a>
+								</div>
+						</div>
+		
+						<div class="item">
+								<div class="item-content">
+									<a href="images/7.jpg" data-lightbox="paradox" data-title="egg"><img  src="images/7.jpg" alt="paradox 6"></a>	
+								</div>
+						</div>
+		
+						<div class="item">
+								<div class="item-content">
+									<a href="images/8.png" data-lightbox="paradox" data-title="time"><img  src="images/8.png" alt="paradox 7"></a>
+								</div>
+						</div>
+		
+						
+						  
+			</div> -->
+
+
+                                   
         </main>
         
-
-        <div class="column">                
-            <img src="images/3.png" class="aboutimg " alt = ""/>
-            <p>The barber is the "one who shaves all those, andthose only, who do not shave themselves."The question is, does the barber shave himself? 
+        <div>
+            <div class="column">                
+                <img src="images/3.png" class="aboutimg " alt = ""/>
+                <div class="paradoxcontent">
+                    <p>The barber is the "one who shaves all those, andthose only, who do not shave themselves."The question is, does the barber shave himself? 
+                </div>
+                
+            </div>
+            <div class="column">
+                <img src="images/4.png" class="aboutimg " alt = ""/>
+                <div class="paradoxcontent">
+                    <p>One can never reach his destination. Because if he want to reach there, he must get halfway there. If he want to get halfway there, he should reach one forth there, and so on. Then he can never reach the end.        
+                </div>
+            </div>
+    
+            <div class="column">
+                <img src="images/5.jpg" class="aboutimg " alt = ""/>
+                <div class="paradoxcontent">
+                        <p>The wooden parts of the ship of Theseus are gradually replaced by new ones. After a long period of time, all the wooden parts have been replaced. Is this ship still the origin one? 
+                </div>
+                      
+                
+                </div>
         </div>
-        <div class="column">
-            <img src="images/4.png" class="aboutimg " alt = ""/>
-            <p>One can never reach his destination. Because if he want to reach there, he must get halfway there. If he want to get halfway there, he should reach one forth there, and so on. Then he can never reach the end.        
-            </div>
-        <div class="column">
-            <img src="images/5.jpg" class="aboutimg " alt = ""/>
-            <p>The wooden parts of the ship of Theseus are gradually replaced by new ones. After a long period of time, all the wooden parts have been replaced. Is this ship still the origin one?       
-            
-            </div>
-
-
-        <div class="column">                
-            <img src="images/6.jpg" class="aboutimg " alt = ""/>
-            <p>One can prevent his birth by doing time traveling to kill his grandfather in the past.
-            <br>   
+        
+        <div>
+                <div class="column">                
+                        <img src="images/6.jpg" class="aboutimg " alt = ""/>
+                        <div class="paradoxcontent">
+                                <p>One can prevent his birth by doing time traveling to kill his grandfather in the past.
+                        </div>
+                        
+                    </div>
+                    <div class="column">
+                        <img src="images/7.jpg" class="aboutimg " alt = ""/>
+                        <div class="paradoxcontent">
+                            <p>Which came first, the chicken or the egg? 
+                        </div>                        
+                    </div>
+                    <div class="column">
+                        <img src="images/8.png" class="aboutimg " alt = ""/>
+                        <div class="paradoxcontent">
+                                <p>Everything when it occupies an equal space is at rest, and if that which is in locomotion is always occupying such a space at any moment, is always occupying such a space at any moment,  the flying arrow is therefore motionless.— as recounted by Aristotle, Physics VI:9, 239b5
+                        </div>    
+                    </div>
         </div>
-        <div class="column">
-            <img src="images/7.jpg" class="aboutimg " alt = ""/>
-            <p>Which came first, the chicken or the egg? 
-            </div>
-        <div class="column">
-            <img src="images/8.png" class="aboutimg " alt = ""/>
-            <p>Everything when it occupies an equal space is at rest, and if that which is in locomotion is always occupying such a space at any moment, is always occupying such a space at any moment,  the flying arrow is therefore motionless.— as recounted by Aristotle, Physics VI:9, 239b5            
-            </div>
+
+        
         
         <!-- <table class="table_img">
             <tr>
@@ -120,7 +208,11 @@
                 </tr>
             </table> -->
       
-      
+    <script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"></script>
+	<script src="https://unpkg.com/hammerjs@2.0.8/hammer.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
+	<script src="js/lightbox-plus-jquery.js"></script>
+	<script src="js/muuri.js"></script>
 
 
 
