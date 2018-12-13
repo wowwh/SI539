@@ -103,16 +103,16 @@
     <script>
             $("form").submit(function( event ){
                 if($("#name2").val() == ''){
-                    $("#nameerrormsg").show();   
-                    event.preventDefault;                 
+                    $("#nameerrormsg").show();  
+                    return false;          
                 }else {
                 $("#nameerrormsg").hide();
                 }
                 if($("#email2").val() == ''){
                     $("#emailerrormsg").show();
+                    return false; 
                 }else {
                 $("#emailerrormsg").hide();
-                    event.preventDefault; 
                 }
                 
             });
