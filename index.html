@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">    
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style/mystyle.css" />
 </head>
 <body>
+        <a class="skip-main" href="#main">Skip to main content</a>
 
         
         <div id="Layer1" class="backgroundimg">  
@@ -21,22 +21,12 @@
 
 
         <header>
-                <h1 class="charmonan">Paradox</h1>        
-                <!-- <nav>
-                    <ul>
-                        <li><a href = "index.html">Hello</a></li>
-                        <li><a href = "about.html">About</a></li>
-                        <li><a href = "paradox.html">Paradox!</a></li>
-                        <li><a href = "contact.html">Contact</a></li>
-                    </ul>
-                    
-                </nav> -->
-
-
-                <nav class="navbar navbar-inverse navbar-fixed-top">
+                <h1 class="charmonan">Paradox</h1>  
+                
+                <nav class="navbar navbar-inverse navbar-fixed-top ">
                     <div class="container ">
-                      <div id="navbar" class="navbar-collapse collapse justify-content-right">
-                        <ul class="nav navbar-nav pull-right ">
+                      <div id="navbar" class="navbar-collapse ">
+                        <ul class="nav navbar-nav ">
                             <li><a href = "index.html" class='current'>Hello</a></li>
                             <li><a href = "about.html">About</a></li>
                             <li><a href = "paradox.html">Paradox!</a></li>
@@ -47,19 +37,37 @@
                   </nav>
                 
                 
-                <img src="images/9.png"  alt = "" width="30%" height="auto"/>
+                <img src="images/9.png"   alt = "" width="30%" height="auto"/>
                       
             </header>
         
             <main>       
-                <h2>This website is not about paradox.</h2>
+                <h2 id="main" tabindex="-1">This website is not about paradox.</h2>
                 <p>
-                    Basicly, paradox is a statement that contradicts itself.
+                    Basicly, paradox is a statement that contradicts itself. 
                 </p>        
+                <p id="click">
+                    Please click this sentence twice!
+                </p>
             </main>
         
     
+<footer>
+    <!-- Copyright -->
+    <div class="footer-copyright text-right py-3 ">© 2018 Copyright:
+            <a href="https://github.com/wowwh/SI539_Project"> Hao Wu</a>
+          </div>
+          <!-- Copyright -->
+</footer>
 
+
+<script>
+        $("#click").click(function( event ){
+            $("#click").toggle();
+            
+        });
+           
+</script>
 
 
 </body>

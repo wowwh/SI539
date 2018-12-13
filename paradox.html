@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">    
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" media="screen" href="style/mystyle.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
+        <a class="skip-main" href="#main">Skip to main content</a>
         
         <header>
                 <h1 class="charmonan">Paradox</h1>        
@@ -30,8 +32,8 @@
 
                 <nav class="navbar navbar-inverse navbar-fixed-top">
                     <div class="container">                      
-                      <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav pull-right">
+                      <div id="navbar" class="navbar-collapse ">
+                        <ul class="nav navbar-nav">
                             <li><a href = "index.html">Hello</a></li>
                             <li><a href = "about.html">About</a></li>
                             <li><a href = "paradox.html" class='current'>Paradox!</a></li>
@@ -51,76 +53,52 @@
 
         
         <main>     
-            <div>
+            <div id="main" tabindex="-1">
                 <h2>Some interesting paradoxes here!</h2>  
             </div>  
 
-            <!-- <div class = "gallery">
-					<div class="grid">
-						
-						<div class="item">
-							<div class="item-content">
-									<a href="images/3.png" data-lightbox="paradox" data-title="about"><img  src="images/2.jpg" alt="paradox 2"></a>
-							</div>
-						</div>
-		
-						<div class="item">
-								<div class="item-content">
-									<a href="images/4.png" data-lightbox="paradox" data-title="distance"><img  src="images/4.png" alt="paradox 3"></a>
-								</div>
-						</div>
-		
-						<div class="item">
-								<div class="item-content">
-									<a href="images/5.jpg" data-lightbox="paradox" data-title="boat"><img  src="images/5.jpg" alt="paradox 4"></a>	
-								</div>
-						</div>
-		
-						<div class="item">
-								<div class="item-content">
-									<a href="images/6.jpg" data-lightbox="paradox" data-title="grandpa"><img  src="images/6.jpg" alt="paradox 5"></a>
-								</div>
-						</div>
-		
-						<div class="item">
-								<div class="item-content">
-									<a href="images/7.jpg" data-lightbox="paradox" data-title="egg"><img  src="images/7.jpg" alt="paradox 6"></a>	
-								</div>
-						</div>
-		
-						<div class="item">
-								<div class="item-content">
-									<a href="images/8.png" data-lightbox="paradox" data-title="time"><img  src="images/8.png" alt="paradox 7"></a>
-								</div>
-						</div>
-		
-						
-						  
-			</div> -->
+            
 
 
                                    
-        </main>
+        
         
         <div>
-            <div class="column">                
-                <img src="images/3.png" class="aboutimg " alt = ""/>
+            <div class="column">  
+                <a href="images/3.png" data-lightbox="paradox" data-title="The barber" ><img src="images/3.png" class="aboutimg " alt = ""/></a>              
+                
+                
+            </div>
+            <div class="column">
+                <a href="images/4.png" data-lightbox="paradox" data-title="Destination"><img src="images/4.png" class="aboutimg " alt = ""/></a>
+            </div>
+    
+            <div class="column">
+                <a href="images/5.jpg" data-lightbox="paradox" data-title="The ship of Theseus"><img src="images/5.jpg" class="aboutimg " alt = ""/></a>   
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="column aligntop">                
+                
                 <div class="paradoxcontent">
                     <p>The barber is the "one who shaves all those, andthose only, who do not shave themselves."The question is, does the barber shave himself? 
                 </div>
                 
             </div>
-            <div class="column">
-                <img src="images/4.png" class="aboutimg " alt = ""/>
+            <div class="column aligntop">
+                
                 <div class="paradoxcontent">
                     <p>One can never reach his destination. Because if he want to reach there, he must get halfway there. If he want to get halfway there, he should reach one forth there, and so on. Then he can never reach the end.        
                 </div>
             </div>
     
-            <div class="column">
-                <img src="images/5.jpg" class="aboutimg " alt = ""/>
+            <div class="column aligntop">
+                
                 <div class="paradoxcontent">
-                        <p>The wooden parts of the ship of Theseus are gradually replaced by new ones. After a long period of time, all the wooden parts have been replaced. Is this ship still the origin one? 
+                    <p>The wooden parts of the ship of Theseus are gradually replaced by new ones. After a long period of time, all the wooden parts have been replaced. Is this ship still the origin one? 
                 </div>
                       
                 
@@ -128,91 +106,53 @@
         </div>
         
         <div>
-                <div class="column">                
-                        <img src="images/6.jpg" class="aboutimg " alt = ""/>
-                        <div class="paradoxcontent">
-                                <p>One can prevent his birth by doing time traveling to kill his grandfather in the past.
-                        </div>
+                <div class="column">     
+                        <a href="images/6.jpg" data-lightbox="paradox" ><img src="images/6.jpg" class="aboutimg " alt = ""/></a>               
                         
                     </div>
                     <div class="column">
-                        <img src="images/7.jpg" class="aboutimg " alt = ""/>
-                        <div class="paradoxcontent">
-                            <p>Which came first, the chicken or the egg? 
-                        </div>                        
+                            <a href="images/7.jpg" data-lightbox="paradox" ><img src="images/7.jpg" class="aboutimg " alt = ""/></a>    
+                                               
                     </div>
                     <div class="column">
-                        <img src="images/8.png" class="aboutimg " alt = ""/>
-                        <div class="paradoxcontent">
-                                <p>Everything when it occupies an equal space is at rest, and if that which is in locomotion is always occupying such a space at any moment, is always occupying such a space at any moment,  the flying arrow is therefore motionless.— as recounted by Aristotle, Physics VI:9, 239b5
-                        </div>    
+                            <a href="images/8.png" data-lightbox="paradox" ><img src="images/8.png" class="aboutimg " alt = ""/></a>                            
                     </div>
         </div>
 
+
+        <div>
+            <div class="column aligntop">                
+                    <div class="paradoxcontent">
+                            <p>One can prevent his birth by doing time traveling to kill his grandfather in the past.
+                    </div>
+                    
+                </div>
+                <div class="column aligntop">
+                    <div class="paradoxcontent">
+                        <p>Which came first, the chicken or the egg? 
+                    </div>                        
+                </div>
+                <div class="column aligntop">
+                    <div class="paradoxcontent">
+                            <p>Everything when it occupies an equal space is at rest, and if that which is in locomotion is always occupying such a space at any moment, is always occupying such a space at any moment,  the flying arrow is therefore motionless.— as recounted by Aristotle, Physics VI:9, 239b5
+                    </div>    
+                </div>
+    </div>
+</main>
+
         
-        
-        <!-- <table class="table_img">
-            <tr>
-            <td class="td_align"><img src="images/3.png" width="80%" height="80%" alt = "" /></td>
-            <td class="td_align"><img src="images/4.png" width="80%" height="80%" alt = "" /></td>
-            <td class="td_align"><img src="images/5.jpg" width="80%" height="80%" alt = "" /></td>
-            
-            </tr>
-            <tr class="table_text">
-            <td class="td_align">
-                <br>The barber is the "one who shaves all those, and
-                <br>those only, who do not shave themselves."
-                <br>The question is, does the barber shave himself? </td>
-            <td class="td_align">
-                <br>One can never reach his destination. 
-                <br>Because if he want to reach there, he must 
-                <br>get halfway there. If he want to get halfway 
-                <br>there, he should reach one forth there, 
-                <br>and so on. Then he can never reach the end.
-            </td>
-            <td class="td_align">
-                <br>The wooden parts of the ship of Theseus are gradually 
-                <br>replaced by new ones. After a long period of time, 
-                <br>all the wooden parts have been replaced. Is this 
-                <br>ship still the origin one?
-            </td>
-            </tr>
-        </table>
+<footer>
+        <!-- Copyright -->
+        <div class="footer-copyright text-right py-3 ">© 2018 Copyright:
+                <a href="https://github.com/wowwh/SI539_Project"> Hao Wu</a>
+              </div>
+              <!-- Copyright -->
+    </footer>      
+   
 
-        <table class="table_img">
-                <tr>                
-                    <td class="td_align" ><img src="images/6.jpg" width="400" height="300" alt = "" /></td>
-                    <td class="td_align"><img src="images/7.jpg" width="400" height="300" alt = "" /></td> 
-                    <td class="td_align"><img src="images/8.png" width="400" height="300" alt = "" /></td>                 
-                </tr>
-                <tr class="table_text">
-                    <td class="td_align">
-                        <br>One can prevent his birth by doing time traveling 
-                        <br>to kill his grandfather in the past.
-                    </td>
-
-                    <td class="td_align">
-                        <br>Which came first, the chicken or the egg?                    
-                    </td>
-
-                    <td class="td_align">
-                        <br>Everything when it occupies an equal space
-                        <br>is at rest, and if that which is in locomotion
-                        <br> is always occupying such a space at any moment,
-                        <br> is always occupying such a space at any moment,
-                        <br>  the flying arrow is therefore motionless.[14]
-                        <br>— as recounted by Aristotle, Physics VI:9, 239b5
-                        
-                    </td>
-                
-                </tr>
-            </table> -->
-      
-    <script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"></script>
-	<script src="https://unpkg.com/hammerjs@2.0.8/hammer.min.js"></script>
-	<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
-	<script src="js/lightbox-plus-jquery.js"></script>
-	<script src="js/muuri.js"></script>
+    
+	<script src="scripts/lightbox-plus-jquery.js"></script>
+	<script src="scripts/muuri.js"></script>
 
 
 

@@ -10,13 +10,10 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">    
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style/mystyle.css" />
 </head>
 <body>
-        <div id="Layer1" class="backgroundimg" >  
-                <img src="images/1.jpg"  alt="background" class="height_width"/>  
-        </div> 
+        <a class="skip-main" href="#main">Skip to main content</a>
     
     <header>
 
@@ -34,8 +31,8 @@
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">                      
-              <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav pull-right">
+              <div id="navbar" class="navbar-collapse ">
+                <ul class="nav navbar-nav">
                     <li ><a href = "index.html">Hello</a></li>
                     <li><a href = "about.html" class='current'>About</a></li>
                     <li><a href = "paradox.html">Paradox!</a></li>
@@ -49,7 +46,7 @@
           
 
 
-        <img src="images/2.jpg"  alt = "" width="30%" height="auto"/>
+        
         
     </header>
 
@@ -58,27 +55,58 @@
 
 
 
-    <main>       
-            <h2>About</h2>
-            <p>
-                
-            <br>“From the Greek para, against or counter to, and doxa, opinion
-            <br>or belief, a paradox is an idea that contradicts a more generally 
-            <br>accepted idea, on purpose.”            
-            <br>—The Paradox of Knowledge and Power, Keenan (1987)
-            </p>  
-
-
+    <main>
+        <div class="around">
+                <div class="column-2 " id="none">
+                        <img src="images/2.jpg" class="aboutimg-2" id="click" alt = ""/>
+                    <!-- <img src="images/2.jpg"  alt = "" /> -->
+                </div>
+        
+        
+                <div class='column-2 aligntop' id="main" tabindex="-1">
+                    <h2>About</h2>
+                    <p>
+                     “From the Greek para, against or counter to, and doxa, opinionor belief, a paradox is an idea that contradicts a more generally  accepted idea, on purpose.”            
+                    <br>—The Paradox of Knowledge and Power, Keenan (1987)
+                    </p>  
+        
+        
+                    
+                    <p>
+                    Paradoxes are known to be arguments with invalid logic, or revealed errors in definition, but they may encourage more critical thinking and let people come up with some special ideas in different areas such as math or physics.
+                    </p>
+        
+        
+                    <p>You will be introduced some famous paradoxes here!</p>
+        
+                    <!-- <p>
+                        
+                    <br>“From the Greek para, against or counter to, and doxa, opinion
+                    <br>or belief, a paradox is an idea that contradicts a more generally 
+                    <br>accepted idea, on purpose.”            
+                    <br>—The Paradox of Knowledge and Power, Keenan (1987)
+                    </p>  
+        
+        
+                    
+                    <p>
+                    <br>Paradoxes are known to be arguments with invalid logic,
+                    <br>or revealed errors in definition, but they may encourage
+                    <br>more critical thinking and let people come up with some
+                    <br>special ideas in different areas such as math or physics.
+                    </p>
+        
+        
+                    <p>You will be introduced some famous paradoxes here!</p> -->
+        
+        
+        
+        
+        
+                </div>
+        </div>
+        
             
-            <p>
-            <br>Paradoxes are known to be arguments with invalid logic,
-            <br>or revealed errors in definition, but they may encourage
-            <br>more critical thinking and let people come up with some
-            <br>special ideas in different areas such as math or physics.
-            </p>
-
-
-            <p>You will be introduced some famous paradoxes here!</p>
 
 
             
@@ -88,9 +116,22 @@
     </main>
 
 
-
+    <footer>
+            <!-- Copyright -->
+            <div class="footer-copyright text-right py-3">© 2018 Copyright:
+                    <a href="https://github.com/wowwh/SI539_Project"> Hao Wu</a>
+                  </div>
+                  <!-- Copyright -->
+    </footer>
     
 
+    <script>
+            $("#click").click(function( event ){
+                $("#main").toggle();
+                
+            });
+               
+        </script>
 
 
 </body>
